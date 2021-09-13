@@ -15,6 +15,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -161,6 +162,63 @@ z-index: 2;
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
+.feynman {
+  min-height: 890px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  margin: 100px auto 70px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  position: relative;
+}
+
+.feynman__link {
+  display: flex;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  width: 50%;
+  right: 48px;
+  justify-content: flex-end;
+}
+
+.feynman__img {
+  position: absolute;
+  height: 637px;
+  width: 867px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/*.feynman__img {
+  height: 637px;
+  width: 867px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}*/
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
