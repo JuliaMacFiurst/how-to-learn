@@ -60,7 +60,7 @@ right: 0;
 bottom: 0;
 z-index: 2;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -208,22 +208,46 @@ z-index: 2;
   width: 867px;
   left: 0;
   bottom: 0;
-  z-index: 1;
 }
 
-/*.feynman__img {
-  height: 637px;
-  width: 867px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 0;
-}*/
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  position: relative;
+  margin-bottom: 90px;
+  overflow: hidden;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.section-title_theme_dark {
+  color: white;
+  margin-top: 90px;
+  position: relative;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  position: relative;
+  margin-top: 20px;
+}
+
+.table_theme_dark {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  height: 877px;
+  width: 877px;
+  position: absolute;
+  right: -210px;
+  z-index: 0;
 }
