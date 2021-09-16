@@ -38,7 +38,6 @@
   margin-left: 64px;
   margin-top: 0;
   margin-bottom: 0;
-  align-items: center;
   z-index: 5;
 }
 
@@ -57,7 +56,6 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  padding-left: 5px;
 }
 
 .header__main-illustration {
@@ -295,7 +293,6 @@
 }
 
 .logo_place_footer {
-  background-image: url(images/logo_place_footer.svg);
   height: 55px;
   width: 183px;
 }
