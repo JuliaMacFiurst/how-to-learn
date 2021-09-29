@@ -51,6 +51,13 @@
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo/_type/resources__logo_type_arzamas.css);
+@import url(../blocks/resources/__logo/_type/resources__logo_type_n-one.css);
+@import url(../blocks/resources/__logo/_type/resources__logo_type_polka.css);
+@import url(../blocks/resources/__logo/_type/resources__logo_type_strelka.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__columns/_content/column_content_copyright.css);
