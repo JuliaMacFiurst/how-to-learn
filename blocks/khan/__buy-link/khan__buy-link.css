@@ -4,6 +4,7 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  align-self: flex-start;
   margin-left: 48px;
   transition: opacity 1s linear 0s;
 }

@@ -9,7 +9,6 @@
     />
     <meta name="author" content="Julia Makhlin" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
@@ -62,8 +61,8 @@
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <div class="cards">
-            <div class="cards__item">
+          <ul class="cards">
+            <li class="cards__item">
               <img
                 src="./images/cards/cards-attention.png"
                 alt="Два вида внимания"
@@ -74,8 +73,8 @@
                 Глубокие знания возникают, если чередовать сфокусированное и
                 рассеянное мышление.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards/cards-recall.png"
                 alt="Реколл"
@@ -86,8 +85,8 @@
                 Вспоминайте изученное — это позволит соединить разрозненные
                 порции памяти.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards/cards-interliving.png"
                 alt="Интерливинг"
@@ -98,8 +97,8 @@
                 Изучайте несколько навыков одновременно, они обогащают друг
                 друга.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards/cards-question.png"
                 alt="Вопросы"
@@ -110,8 +109,8 @@
                 Слушая преподавателя, придумывайте хороший вопрос, который вас
                 действительно волнует.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images/cards/cards-competence.png"
                 alt="Иллюзия компетентности"
@@ -122,8 +121,8 @@
                 Повторите про себя, запишите, расскажите другу: вам только
                 кажется, что вы владеете новой темой.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section class="video">
@@ -133,15 +132,11 @@
           <div class="video__iframes">
             <iframe
               class="video__iframe"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/J_89IMS5gJQ?autoplay=1"
             ></iframe>
 
             <iframe
               class="video__iframe"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/0u3bccaRmmg"
             ></iframe>
           </div>
@@ -229,17 +224,21 @@
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир — школа</h2>
-            <p class="khan__quote">
+            <blockquote class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
               студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
               всем, кто занимается образованием — так учащиеся повсюду смогут
               получить навыки и знания, которые приносят успех в школе, карьере
               и жизни.
-            </p>
-            <p class="khan__quote-author">Джордж Лукас</p>
-            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            </blockquote>
+            <cite class="khan__quote-author">Джордж Лукас</cite>
+            <p class="khan__author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
+              <img
+                class="khan__book-pic"
+                src="/images/khan/khan-book.jpg"
+                alt="Обложка книги С.Хана Весь мир школа"
+              />
               <a class="khan__buy-link" href="#" target="_blank"
                 >Купить книгу &rarr;</a
               >
@@ -324,32 +323,40 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resources__logo-zone">
-            <a href="#" class="resources__logo" target="_blank"
-              ><img
-                class="resources__logo resources__logo_type_arzamas"
-                src="images/logo/resources-arzamas.svg"
-                alt="Арзамас"
-            /></a>
-            <a href="#" class="resources__logo" target="_blank"
-              ><img
-                class="resources__logo resources__logo_type_n-one"
-                src="images/logo/resources-n1.svg"
-                alt="Эн-1"
-            /></a>
-            <a href="#" class="resources__logo" target="_blank"
-              ><img
-                class="resources__logo resources__logo_type_strelka"
-                src="images/logo/resources-strelka.svg"
-                alt="Стрелка"
-            /></a>
-            <a href="#" class="resources__logo" target="_blank"
-              ><img
-                class="resources__logo resources__logo_type_polka"
-                src="images/logo/resources-polka.svg"
-                alt="Полка"
-            /></a>
-          </div>
+          <ul class="resources__logo-zone">
+            <li class="resources__logo">
+              <a href="#" target="_blank"
+                ><img
+                  class="resources__logo resources__logo_type_arzamas"
+                  src="images/logo/resources-arzamas.svg"
+                  alt="Арзамас"
+              /></a>
+            </li>
+            <li class="resources__logo">
+              <a href="#" target="_blank"
+                ><img
+                  class="resources__logo resources__logo_type_n-one"
+                  src="images/logo/resources-n1.svg"
+                  alt="Эн-1"
+              /></a>
+            </li>
+            <li class="resources__logo">
+              <a href="#" target="_blank"
+                ><img
+                  class="resources__logo resources__logo_type_strelka"
+                  src="images/logo/resources-strelka.svg"
+                  alt="Стрелка"
+              /></a>
+            </li>
+            <li class="resources__logo">
+              <a href="#" target="_blank"
+                ><img
+                  class="resources__logo resources__logo_type_polka"
+                  src="images/logo/resources-polka.svg"
+                  alt="Полка"
+              /></a>
+            </li>
+          </ul>
         </section>
       </main>
 
@@ -368,15 +375,18 @@
             <ul class="footer__column-links">
               <li>
                 <a class="footer__column-link" href="#" target="blank"
-                  >Главная</a>
+                  >Главная</a
+                >
               </li>
               <li>
                 <a class="footer__column-link" href="#" target="blank"
-                  >Концепция</a>
+                  >Концепция</a
+                >
               </li>
               <li>
                 <a class="footer__column-link" href="#" target="blank"
-                  >Наставники</a>
+                  >Наставники</a
+                >
               </li>
             </ul>
           </nav>
@@ -389,7 +399,8 @@
                     class="footer__social-icon"
                     src="./images/footer/facebook_color_white.svg"
                     alt="Фейсбук"
-                  />Facebook</a>
+                  />Facebook</a
+                >
               </li>
               <li>
                 <a class="footer__column-link" href="http://www.vk.com"
@@ -397,7 +408,8 @@
                     class="footer__social-icon"
                     src="./images/footer/vk_color_white.svg"
                     alt="ВКонтакте"
-                  />ВКонтакте</a>
+                  />ВКонтакте</a
+                >
               </li>
               <li>
                 <a class="footer__column-link" href="http://www.instagram.com"
@@ -405,7 +417,8 @@
                     class="footer__social-icon"
                     src="./images/footer/instagram_color_white.svg"
                     alt="Инстаграм"
-                  />Instagram</a>
+                  />Instagram</a
+                >
               </li>
             </ul>
           </div>
