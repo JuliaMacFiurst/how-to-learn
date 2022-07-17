@@ -9,15 +9,13 @@
     />
     <meta name="author" content="Julia Makhlin" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
         <img
           class="logo logo_place_header"
-          src="images/header/logo_place_header.svg"
+          src="<%=require('./images/header/logo_place_header.svg')%>"
           alt="Яндекс.Практикум"
         />
         <h1 class="header__title">Научиться учиться</h1>
@@ -28,7 +26,7 @@
         </p>
         <img
           class="header__main-illustration"
-          src="images/header/header-image.png"
+          src="<%=require('./images/header/header-image.png')%>"
           alt="Картина Ф.П.Решетникова Опять двойка"
         />
         <div class="rotation header__square-pic"></div>
@@ -65,7 +63,7 @@
           <div class="cards">
             <div class="cards__item">
               <img
-                src="./images/cards/cards-attention.png"
+                src="<%=require('./images/cards/cards-attention.png')%>"
                 alt="Два вида внимания"
                 class="cards__image"
               />
@@ -77,7 +75,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="./images/cards/cards-recall.png"
+                src="<%=require('./images/cards/cards-recall.png')%>"
                 alt="Реколл"
                 class="cards__image"
               />
@@ -89,7 +87,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="./images/cards/cards-interliving.png"
+                src="<%=require('./images/cards/cards-interliving.png')%>"
                 alt="Интерливинг"
                 class="cards__image"
               />
@@ -101,7 +99,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="./images/cards/cards-question.png"
+                src="<%=require('./images/cards/cards-question.png')%>"
                 alt="Вопросы"
                 class="cards__image"
               />
@@ -113,7 +111,7 @@
             </div>
             <div class="cards__item">
               <img
-                src="./images/cards/cards-competence.png"
+                src="<%=require('./images/cards/cards-competence.png')%>"
                 alt="Иллюзия компетентности"
                 class="cards__image"
               />
@@ -171,7 +169,7 @@
           <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
           <img
             class="feynman__img"
-            src="./images/feynman/feynman.png"
+            src="<%=require('./images/feynman/feynman.png')%>"
             alt="Ричард Файнман"
           />
         </section>
@@ -328,25 +326,25 @@
             <a href="#" class="resources__logo" target="_blank"
               ><img
                 class="resources__logo resources__logo_type_arzamas"
-                src="images/logo/resources-arzamas.svg"
+                src="<%=require('./images/logo/resources-arzamas.svg')%>"
                 alt="Арзамас"
             /></a>
             <a href="#" class="resources__logo" target="_blank"
               ><img
                 class="resources__logo resources__logo_type_n-one"
-                src="images/logo/resources-n1.svg"
+                src="<%=require('./images/logo/resources-n1.svg')%>"
                 alt="Эн-1"
             /></a>
             <a href="#" class="resources__logo" target="_blank"
               ><img
                 class="resources__logo resources__logo_type_strelka"
-                src="images/logo/resources-strelka.svg"
+                src="<%=require('./images/logo/resources-strelka.svg')%>"
                 alt="Стрелка"
             /></a>
             <a href="#" class="resources__logo" target="_blank"
               ><img
                 class="resources__logo resources__logo_type_polka"
-                src="images/logo/resources-polka.svg"
+                src="<%=require('./images/logo/resources-polka.svg')%>"
                 alt="Полка"
             /></a>
           </div>
@@ -358,7 +356,7 @@
           <div class="footer__column footer__column_content_copyright">
             <img
               class="logo logo_place_footer"
-              src="./images/footer/logo_place_footer.svg"
+              src="<%=require('./images/footer/logo_place_footer.svg')%>"
               alt="Яндекс.Практикум"
             />
             <p class="footer__author">&copy;2021 Юлия Махлина</p>
@@ -387,7 +385,7 @@
                 <a class="footer__column-link" href="http://www.facebook.com"
                   ><img
                     class="footer__social-icon"
-                    src="./images/footer/facebook_color_white.svg"
+                    src="<%=require('./images/footer/facebook_color_white.svg')%>"
                     alt="Фейсбук"
                   />Facebook</a>
               </li>
@@ -395,7 +393,7 @@
                 <a class="footer__column-link" href="http://www.vk.com"
                   ><img
                     class="footer__social-icon"
-                    src="./images/footer/vk_color_white.svg"
+                    src="<%=require('./images/footer/vk_color_white.svg')%>"
                     alt="ВКонтакте"
                   />ВКонтакте</a>
               </li>
@@ -403,7 +401,7 @@
                 <a class="footer__column-link" href="http://www.instagram.com"
                   ><img
                     class="footer__social-icon"
-                    src="./images/footer/instagram_color_white.svg"
+                    src="<%=require('./images/footer/instagram_color_white.svg')%>"
                     alt="Инстаграм"
                   />Instagram</a>
               </li>
